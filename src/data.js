@@ -1,13 +1,14 @@
-import json from "./json-to-csv.png";
-import jsonPoster from "./json-to-csv-poster.png";
-import ecom from "./ecom.png";
-import ecomPoster from "./ecom-poster.png";
+import json from "./images/json-to-csv.png";
+import jsonPoster from "./images/json-to-csv-poster.png";
 
-import linkedin from "./linkedin.png";
-import linkedinPoster from "./linkedin-poster.png";
+import ecom from "./images/ecom.png";
+import ecomPoster from "./images/ecom-poster.png";
 
-import countries from "./countries.png";
-import countriesPoster from "./countries-poster.png";
+import linkedin from "./images/linkedin.png";
+import linkedinPoster from "./images/linkedin-poster.png";
+
+import countries from "./images/countries.png";
+import countriesPoster from "./images/countries-poster.png";
 export const biographyData = [
   {
     age: "2012-2016",

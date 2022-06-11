@@ -1,5 +1,5 @@
 import React from "react";
-import author from "../me.JPEG";
+import author from "../images/me.JPEG";
 
 function About() {
   return (

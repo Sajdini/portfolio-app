@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Biography from "./components/Biography";
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/portfolio/Portfolio";
 import Footer from "./components/footer/Footer";
 function App() {
   return (

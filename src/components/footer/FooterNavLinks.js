@@ -19,7 +19,7 @@ const FooterNavLinks = () => {
           </Link>
         </div>
         <div className="col">
-          <Link className="footer-nav" to="Biography">
+          <Link className="footer-nav" to="biography">
             Biography
           </Link>
           <br />

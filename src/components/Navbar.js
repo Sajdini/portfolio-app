@@ -2,6 +2,7 @@ import React from "react";
 
 import { Link } from "react-scroll";
 import { GiHamburgerMenu } from "react-icons/gi";
+import logo from "../images/logo.svg";
 
 const Navbar = () => {
   return (
@@ -10,9 +11,13 @@ const Navbar = () => {
         <div className="navbar-brand" style={{ width: "6rem" }}>
           <img
             className="logo"
-            src=""
+            src={logo}
             alt="Logo..."
-            style={{ maxWidth: "100%" }}
+            style={{
+              width: "90%",
+              backgroundColor: "#f9ab00",
+              borderRadius: "100px",
+            }}
           />
         </div>
         <button
