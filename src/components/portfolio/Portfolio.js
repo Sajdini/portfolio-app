@@ -30,8 +30,14 @@ const Portfolio = () => {
       <div className="container ">
         <h1 className="text-uppercase text-center py-5">Portfolio</h1>
         <div className="d-flex flex-wrap">
-          {portfolioInfo.map((data) => {
-            return <ProjectCard data={data} clickHandler={clickHandler} />;
+          {portfolioInfo.map((data, index) => {
+            return (
+              <ProjectCard
+                key={index}
+                data={data}
+                clickHandler={clickHandler}
+              />
+            );
           })}
         </div>
       </div>

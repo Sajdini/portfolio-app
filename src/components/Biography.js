@@ -10,6 +10,7 @@ function Biography() {
         {biographyData.map((data, index) => {
           return (
             <div
+              key={index}
               className={`timeline-block timeline-block-${
                 index % 2 === 0 ? "left" : "right"
               }`}
