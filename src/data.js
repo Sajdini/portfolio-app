@@ -11,7 +11,7 @@ import countries from "./images/countries.png";
 import countriesPoster from "./images/countries-poster.png";
 
 import getFit from "./images/get-fit.png";
-import getFitPoster from "./images/get-fit.png";
+import getFitPoster from "./images/get-fit-poster.png";
 
 export const biographyData = [
   {
