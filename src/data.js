@@ -9,6 +9,10 @@ import linkedinPoster from "./images/linkedin-poster.png";
 
 import countries from "./images/countries.png";
 import countriesPoster from "./images/countries-poster.png";
+
+import getFit from "./images/get-fit.png";
+import getFitPoster from "./images/get-fit.png";
+
 export const biographyData = [
   {
     age: "2012-2016",
@@ -54,7 +58,7 @@ export const portfolioInfo = [
 
   {
     name: "Linkedin Clone",
-    link: "https://62a4ab091ac5a02e77301aa5--magenta-chimera-7bab08.netlify.app/",
+    link: "https://62d401fb0eebee553a9d45ba--linkedinclone-app.netlify.app/",
     image: linkedin,
     id: 3,
     posterImg: linkedinPoster,
@@ -63,11 +67,20 @@ export const portfolioInfo = [
   },
   {
     name: "Countries List",
-    link: "https://62a4b4e51ffcb331b950ab39--delicate-pie-5e9d68.netlify.app/",
+    link: "https://listofcountries-app.netlify.app/",
     image: countries,
     id: 4,
     description:
       "This project gets and shows information about countries via a RESTful API",
     posterImg: countriesPoster,
+  },
+  {
+    name: "Get Fit",
+    link: "https://getfit-excercises.netlify.app/",
+    image: getFit,
+    id: 5,
+    description:
+      "This project gets and shows information about all kinds of excercises via a RESTful API",
+    posterImg: getFitPoster,
   },
 ];
