@@ -13,6 +13,9 @@ import countriesPoster from "./images/countries-poster.png";
 import getFit from "./images/get-fit.png";
 import getFitPoster from "./images/get-fit-poster.png";
 
+import recipeApp from "./images/get-recipe.png";
+import recipeAppPoster from "./images/get-recipe-poster.png";
+
 export const biographyData = [
   {
     age: "2012-2016",
@@ -82,5 +85,15 @@ export const portfolioInfo = [
     description:
       "This project gets and shows information about all kinds of excercises via a RESTful API",
     posterImg: getFitPoster,
+  },
+
+  {
+    name: "Recipe App",
+    link: "https://getyourrecipeapp.netlify.app/",
+    image: recipeApp,
+    id: 6,
+    description:
+      "This project lets you find various receipts from various cuisines",
+    posterImg: recipeAppPoster,
   },
 ];
